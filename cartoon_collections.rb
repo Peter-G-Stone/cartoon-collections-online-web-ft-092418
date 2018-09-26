@@ -21,5 +21,5 @@ end
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = food.find{|f| f == cheese_types.any?}
-  end 
+  
 end
