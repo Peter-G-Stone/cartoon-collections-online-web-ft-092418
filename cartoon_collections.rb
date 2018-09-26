@@ -2,6 +2,7 @@ def roll_call_dwarves(names)
   names.each_with_index {|n, i| puts "#{i}. #{n}"}
 end
 
+roll_call_dwarves()
 
 def summon_captain_planet# code an argument here
   # Your code here
