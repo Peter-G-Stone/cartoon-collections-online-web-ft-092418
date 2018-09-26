@@ -5,7 +5,9 @@ end
 roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(planeteer)
-  planeteer.collect {|i| i.
+  planeteer.collect do 
+    
+  end 
 end
 
 def long_planeteer_calls# code an argument here
